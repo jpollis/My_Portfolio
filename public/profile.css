@@ -5,18 +5,6 @@
   padding-right: 1em;
 }
 
-#bio {
-  font-size: 23px;
-}
-
-#bio-2 {
-  font-size: 23px;
-}
-
-#bio-3 {
-  font-size: 23px;
-}
-
 .list_1 {
   padding-left: 0.5em !important;
   font-size: 20px;
@@ -40,7 +28,6 @@
 }
 
 .homz {
-  font-size: 23px;
   padding-left: 15em;
   padding-right: 15em;
 }
