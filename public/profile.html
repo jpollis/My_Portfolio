@@ -12,10 +12,12 @@
 
   <body>
     <!-- navbar/header -->
+
     <div class="navbar-fixed">
       <nav>
         <div class="nav-wrapper">
           <a href="#" class="brand-logo center">Joe Pollis</a>
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="https://github.com/jpollis" target="blank">Github</a></li>
             <li><a id="proj">Projects</a></li>
@@ -24,6 +26,12 @@
         </div>
       </nav>
     </div>
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="https://github.com/jpollis" target="blank">Github</a></li>
+      <li><a id="proj">Projects</a></li>
+      <li><a href="https://www.linkedin.com/in/joe-pollis-250259108/" target="blank">Linkedin</a></li>
+    </ul>
+
 
     <div class="parallax-container">
     <div class="parallax"><img src="/assets/yosemite.jpg"></div>
@@ -41,9 +49,9 @@
   <div class="parallax-container">
     <div class="parallax"><img src="/assets/laptop.jpg"></div>
   </div>
-  <div class="projects center">
+  <div class="col s12 l6 xl4 projects center">
     <h2>Projects</h2>
-    <div class="homz">
+    <div class="col s5 homz">
       <p>
         <a href="https://hidden-brook-71610.herokuapp.com/" target="blank">Homz Direct</a>
       - Designed for mobile only. If using a desktop, please view in mobile mode when you click on the 'Homz Direct' link. Located in Miami, FL, Homz Direct is a company that is aimed at creating a social media platform for real estate. This is their MVP! Users can post, share, and comment on pictures of their homes throughout an infinite scrolling feed, and connect freely to make direct transactions.
