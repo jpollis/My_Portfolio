@@ -31,6 +31,10 @@
   padding-left: 0.5em !important;
 }
 
+.modal-content {
+  text-align: center;
+}
+
 
 @media screen and (min-width: 1000px) {
   .homz {

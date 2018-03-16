@@ -8,4 +8,9 @@ $(document).ready(function(){
     });
     // sidenav activate
     $(".button-collapse").sideNav();
+
+    $(".contact").click(function(){
+      $('.modal').modal();
+      $('#modal1').modal('open');
+    })
   });
