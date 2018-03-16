@@ -7,6 +7,10 @@
 
 .sidenav {
   padding-left: 1em !important;
+  padding-top: 2em !important;
+  width: 33% !important;
+  background-color: white !important;
+  padding-bottom: 2em !important;
 }
 
 .list_1 {
