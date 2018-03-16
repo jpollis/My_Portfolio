@@ -13,6 +13,10 @@
   padding-bottom: 2em !important;
 }
 
+ #sidenav-overlay{
+   z-index: 998;
+ }
+
 .list_1 {
   padding-left: 0.5em !important;
   font-size: 20px;
