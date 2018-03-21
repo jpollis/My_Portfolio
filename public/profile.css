@@ -49,7 +49,7 @@
   margin: 0 auto;
 }
 
-.card-image#homz {
+#homz.card-image {
   background-color: blue !important;
 }
 
