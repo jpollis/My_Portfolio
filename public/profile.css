@@ -49,6 +49,10 @@
   margin: 0 auto;
 }
 
+#homz-pic {
+  background-color: blue;
+}
+
 
 @media screen and (min-width: 1000px) {
   .homz {
